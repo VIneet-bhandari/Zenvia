@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color background
+color ic_launcher_background
+color on_background
+color on_surface
+color primary
+color secondary
+color surface
+color tertiary
+color zenvia_yellow
+drawable ic_google
+drawable ic_launcher_foreground
+drawable splash_background
+drawable splash_logo
+drawable zenvia_logo
+drawable zenviaicon_background
+mipmap zenviaicon
+mipmap zenviaicon_foreground
+mipmap zenviaicon_round
+string app_name
+string app_subtitle
+string default_web_client_id
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
+string web_client_id
+style Theme.App.Starting
+style Theme.BikeRentalApp

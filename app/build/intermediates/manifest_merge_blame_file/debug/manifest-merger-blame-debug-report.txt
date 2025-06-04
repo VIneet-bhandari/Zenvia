@@ -1,0 +1,312 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bikerentalapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:5:5-8:62
+8        android:minSdkVersion="24"
+8-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:6:9-35
+9        android:targetSdkVersion="34" />
+9-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:7:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\7ebda910786f5ccb0391a88903edc498\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\7ebda910786f5ccb0391a88903edc498\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+14
+15    <permission
+15-->[androidx.core:core:1.12.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\3b9857e443345caffb97170ac11fa156\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.bikerentalapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\3b9857e443345caffb97170ac11fa156\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\3b9857e443345caffb97170ac11fa156\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.bikerentalapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\3b9857e443345caffb97170ac11fa156\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\3b9857e443345caffb97170ac11fa156\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:10:5-27:19
+22        android:allowBackup="true"
+22-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.12.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\3b9857e443345caffb97170ac11fa156\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/zenviaicon"
+26-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:12:9-42
+27        android:label="@string/app_name"
+27-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:13:9-41
+28        android:roundIcon="@mipmap/zenviaicon_round"
+28-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:14:9-53
+29        android:supportsRtl="true"
+29-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:15:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.BikeRentalApp" >
+31-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:16:9-51
+32        <activity
+32-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:17:9-26:20
+33            android:name="com.example.bikerentalapp.MainActivity"
+33-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:18:13-41
+34            android:exported="true"
+34-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:19:13-36
+35            android:label="@string/app_name"
+35-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:20:13-45
+36            android:theme="@style/Theme.BikeRentalApp" >
+36-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:21:13-55
+37            <intent-filter>
+37-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:22:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:23:17-69
+38-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:24:17-77
+40-->C:\Users\BHANDARI\OneDrive\Desktop\hogahoga\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+44            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+44-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+45            android:excludeFromRecents="true"
+45-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+46            android:exported="false"
+46-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+47            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+47-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+48        <!--
+49            Service handling Google Sign-In user revocation. For apps that do not integrate with
+50            Google Sign-In, this service will never be started.
+51        -->
+52        <service
+52-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+53            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+53-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+54            android:exported="true"
+54-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+55            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+55-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+56            android:visibleToInstantApps="true" />
+56-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\208ac9972bd10f505f846fa37ec648f2\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+57        <service
+57-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\d3b8069d99fa7ca8d262ae2a5afc3163\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:8:9-14:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\d3b8069d99fa7ca8d262ae2a5afc3163\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:9:13-84
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\d3b8069d99fa7ca8d262ae2a5afc3163\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:10:13-37
+61            <meta-data
+61-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\d3b8069d99fa7ca8d262ae2a5afc3163\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:11:13-13:85
+62                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+62-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\d3b8069d99fa7ca8d262ae2a5afc3163\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:12:17-119
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\d3b8069d99fa7ca8d262ae2a5afc3163\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:13:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+65                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+65-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\380544bc05d61fbbfb30a5266c22f6a6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+68                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+68-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\380544bc05d61fbbfb30a5266c22f6a6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\380544bc05d61fbbfb30a5266c22f6a6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+71                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+71-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+73        </service>
+74
+75        <activity
+75-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+76            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+76-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+77            android:excludeFromRecents="true"
+77-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+78            android:exported="true"
+78-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+79            android:launchMode="singleTask"
+79-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+80-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+81            <intent-filter>
+81-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+82-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+84-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+85-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+86
+87                <data
+87-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+88                    android:host="firebase.auth"
+88-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+89                    android:path="/"
+89-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+90                    android:scheme="genericidp" />
+90-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+94            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+94-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+95            android:excludeFromRecents="true"
+95-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+96            android:exported="true"
+96-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+97            android:launchMode="singleTask"
+97-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+98-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+100-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+102-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+103-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+104
+105                <data
+105-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+106                    android:host="firebase.auth"
+106-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+107                    android:path="/"
+107-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+108                    android:scheme="recaptcha" />
+108-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\e4d7cbaf8ba3298476e31bfdea29ef21\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+109            </intent-filter>
+110        </activity>
+111        <activity
+111-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\b62eb148877cf4fd627aa2db1eba1288\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\b62eb148877cf4fd627aa2db1eba1288\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\b62eb148877cf4fd627aa2db1eba1288\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\b62eb148877cf4fd627aa2db1eba1288\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+118            android:authorities="com.example.bikerentalapp.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:20.4.2] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\56b56e64d44e493f0eb45245b947736f\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+122
+123        <activity
+123-->[androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\5361addf5838a49595cbf19291380dc8\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+124            android:name="androidx.compose.ui.tooling.PreviewActivity"
+124-->[androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\5361addf5838a49595cbf19291380dc8\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+125            android:exported="true" />
+125-->[androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\5361addf5838a49595cbf19291380dc8\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+126        <activity
+126-->[androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\80d369d04d21f2a100bd39e12e03824f\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:23:9-25:39
+127            android:name="androidx.activity.ComponentActivity"
+127-->[androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\80d369d04d21f2a100bd39e12e03824f\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:24:13-63
+128            android:exported="true" />
+128-->[androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\80d369d04d21f2a100bd39e12e03824f\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:25:13-36
+129
+130        <provider
+130-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\f57df5b6b9e171213849c59e2ed25c46\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+131            android:name="androidx.startup.InitializationProvider"
+131-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\f57df5b6b9e171213849c59e2ed25c46\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+132            android:authorities="com.example.bikerentalapp.androidx-startup"
+132-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\f57df5b6b9e171213849c59e2ed25c46\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+133            android:exported="false" >
+133-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\f57df5b6b9e171213849c59e2ed25c46\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+134            <meta-data
+134-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\f57df5b6b9e171213849c59e2ed25c46\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+135                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+135-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\f57df5b6b9e171213849c59e2ed25c46\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+136                android:value="androidx.startup" />
+136-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\f57df5b6b9e171213849c59e2ed25c46\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+137            <meta-data
+137-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\b34335e908035314117b9fc6fa0b95bf\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+138-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\b34335e908035314117b9fc6fa0b95bf\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+139                android:value="androidx.startup" />
+139-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\b34335e908035314117b9fc6fa0b95bf\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+140            <meta-data
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+141                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+142                android:value="androidx.startup" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+143        </provider>
+144
+145        <meta-data
+145-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\eef8e9e76258d7c68d38765ac99fec0e\transformed\play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+146            android:name="com.google.android.gms.version"
+146-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\eef8e9e76258d7c68d38765ac99fec0e\transformed\play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+147            android:value="@integer/google_play_services_version" />
+147-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\eef8e9e76258d7c68d38765ac99fec0e\transformed\play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+148
+149        <receiver
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+150            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+151            android:directBootAware="false"
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+152            android:enabled="true"
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+153            android:exported="true"
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+154            android:permission="android.permission.DUMP" >
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+156                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+157            </intent-filter>
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+159                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+160            </intent-filter>
+161            <intent-filter>
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+162                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+163            </intent-filter>
+164            <intent-filter>
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+165                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BHANDARI\.gradle\caches\8.12\transforms\869c7e08ce4ad84f8ed73c6e687062d2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+166            </intent-filter>
+167        </receiver>
+168    </application>
+169
+170</manifest>

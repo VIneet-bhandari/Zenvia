@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-xxhdpi_zenviaicon_foreground.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-xxhdpi/zenviaicon_foreground.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-xhdpi_zenviaicon_round.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-xhdpi/zenviaicon_round.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/drawable_splash_background.xml.flat",
+        "source": "com.example.bikerentalapp-main-63:/drawable/splash_background.xml"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.bikerentalapp-main-63:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-xxhdpi_zenviaicon_round.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-xxhdpi/zenviaicon_round.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-xxxhdpi_zenviaicon_round.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-xxxhdpi/zenviaicon_round.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-hdpi_zenviaicon_foreground.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-hdpi/zenviaicon_foreground.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-hdpi_zenviaicon_round.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-hdpi/zenviaicon_round.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-xxxhdpi_zenviaicon.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-xxxhdpi/zenviaicon.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-xxhdpi_zenviaicon.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-xxhdpi/zenviaicon.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-anydpi-v26_zenviaicon_round.xml.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-anydpi-v26/zenviaicon_round.xml"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/drawable_ic_google.xml.flat",
+        "source": "com.example.bikerentalapp-main-63:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-xxxhdpi_zenviaicon_foreground.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-xxxhdpi/zenviaicon_foreground.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-mdpi_zenviaicon_round.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-mdpi/zenviaicon_round.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-xhdpi_zenviaicon.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-xhdpi/zenviaicon.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/drawable_splash_logo.xml.flat",
+        "source": "com.example.bikerentalapp-main-63:/drawable/splash_logo.xml"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-mdpi_zenviaicon_foreground.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-mdpi/zenviaicon_foreground.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-hdpi_zenviaicon.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-hdpi/zenviaicon.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/drawable_zenviaicon_background.xml.flat",
+        "source": "com.example.bikerentalapp-main-63:/drawable/zenviaicon_background.xml"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-anydpi-v26_zenviaicon.xml.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-anydpi-v26/zenviaicon.xml"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-mdpi_zenviaicon.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-mdpi/zenviaicon.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/mipmap-xhdpi_zenviaicon_foreground.webp.flat",
+        "source": "com.example.bikerentalapp-main-63:/mipmap-xhdpi/zenviaicon_foreground.webp"
+    },
+    {
+        "merged": "com.example.bikerentalapp-merged_res-61:/drawable_zenvia_logo.xml.flat",
+        "source": "com.example.bikerentalapp-main-63:/drawable/zenvia_logo.xml"
+    }
+]

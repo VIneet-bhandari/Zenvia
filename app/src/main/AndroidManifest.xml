@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="34"
+        tools:overrideLibrary="androidx.compose.material3" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/zenviaicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/zenviaicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BikeRentalApp">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BikeRentalApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest> 

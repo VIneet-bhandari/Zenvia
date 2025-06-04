@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="200"
+    android:viewportHeight="80">
+    <text
+        android:fontFamily="sans-serif-black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="@color/zenvia_yellow"
+        android:text="Zenvia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</vector> 
